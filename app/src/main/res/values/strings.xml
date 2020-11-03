@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Image Labeling</string>
+    <string name="the_result_will_be_shown_here">The result will be shown here:</string>
+    <string name="choose_image">Choose Image</string>
+</resources>

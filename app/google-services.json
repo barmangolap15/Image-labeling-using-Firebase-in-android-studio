@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "331707153027",
+    "firebase_url": "https://image-labeling-72f44.firebaseio.com",
+    "project_id": "image-labeling-72f44",
+    "storage_bucket": "image-labeling-72f44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331707153027:android:889fee96607d11b762b9b6",
+        "android_client_info": {
+          "package_name": "com.codewithgolap.imagelabeling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331707153027-t0gln18gi4hpdo2gb8j79c8kth79rkv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqSoA-FQ0ooPdkQ3DpD1gLzc4vUAlw3g8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331707153027-t0gln18gi4hpdo2gb8j79c8kth79rkv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

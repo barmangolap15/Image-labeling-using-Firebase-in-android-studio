@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="250dp"
+           android:id="@+id/imageView"
+           android:scaleType="fitXY" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:padding="10dp"
+           android:textColor="@android:color/black"
+           android:text="@string/the_result_will_be_shown_here"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:gravity="center_horizontal"
+           android:id="@+id/textView"
+           android:textColor="@android:color/black"
+           android:layout_marginTop="10dp"/>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:text="@string/choose_image"
+           android:backgroundTint="@color/colorPrimary"
+           android:textColor="@android:color/white"
+           android:padding="10dp"
+           android:textSize="16sp"
+           android:id="@+id/chooseButton"
+           android:layout_marginTop="20dp"/>
+
+   </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
